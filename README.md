@@ -1,4 +1,4 @@
-This code refers to the paper "RNA structure prediction including pseudoknots through direct enumeration of states" by Kimchi et al. All files should be run in MatLab. It has been tested in version R2017b but is expected to work in previous versions as well.
+This code refers to the paper "RNA structure prediction including pseudoknots through direct enumeration of states" by Kimchi et al. Besides a recently added .py file (which is a self-contained Python version of the code, still in progress, with instructions to run it within the code comments) all files should be run in MatLab. The code has been tested in version R2017b but is expected to work in previous versions as well.
 
 The main file is RNALandscape_main.m. The inputs and outputs of that file are described in comments at the top of the file. The two .mat files saved are the results of running ennumerateDisallowedPermutationsWithPseudoknots. This function need only be run once (not once per sequence).
 
